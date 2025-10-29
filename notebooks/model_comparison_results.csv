@@ -1,0 +1,4 @@
+model,dataset,eval_accuracy,eval_loss,output_dir
+DistilBERT,SST-2 (subset),,,outputs/distilbert_sst2_small
+BERT,SST-2 (subset),,,outputs/bert_sst2_small
+RoBERTa,SST-2 (subset),,,outputs/roberta_sst2_small
