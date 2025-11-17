@@ -31,12 +31,12 @@ BiasGuard detects and mitigates societal bias in large-scale text data through a
 ---
 
 ## 📁 Repo Structure  
-BiasGuard/
-├── notebooks/ # Exploratory analysis & bias-model prototyping
-├── scripts/ # Data-ingestion, preprocessing & training scripts
-├── README.md # This file
-└── requirements.txt # Project dependencies
-## 🔧 Quick Start  
+BiasGuard/      
+├── notebooks/ # Exploratory analysis & bias-model prototyping         
+├── scripts/ # Data-ingestion, preprocessing & training scripts            
+├── README.md # This file            
+└── requirements.txt # Project dependencies              
+## 🔧 Quick Start                 
 ```bash
 git clone https://github.com/bhoomikaa/BiasGuard.git
 cd BiasGuard
