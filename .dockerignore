@@ -1,0 +1,12 @@
+.venv
+__pycache__
+*.pyc
+.git
+.gitignore
+outputs/
+data/
+models/
+.ipynb_checkpoints
+*.ipynb
+.DS_Store
+*.env

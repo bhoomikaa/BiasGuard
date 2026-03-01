@@ -133,7 +133,7 @@ pip install -r requirements.txt
 # 2. Full pipeline (~15–30 min) — downloads Civil Comments, trains all 4 models
 python -m scripts.run_demo
 
-# 3. Display the comparison table (uses results_demo.json or trained outputs)
+# 3. Display the comparison table (uses results/model_comparison.json or trained outputs)
 python -m scripts.show_results
 ```
 

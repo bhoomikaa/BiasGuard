@@ -1,0 +1,18 @@
+{
+  "run_info": {
+    "dataset": "google/civil_comments",
+    "split": "validation",
+    "task": "binary toxicity/bias classification",
+    "generated_by": "python -m scripts.run_demo",
+    "or_displayed_by": "python -m scripts.show_results"
+  },
+  "model_comparison": [
+    {"model": "DistilBERT", "accuracy": 0.842, "eval_loss": 0.375},
+    {"model": "BERT", "accuracy": 0.868, "eval_loss": 0.359},
+    {"model": "RoBERTa", "accuracy": 0.838, "eval_loss": 0.546},
+    {"model": "LLaMA2", "accuracy": 0.856, "eval_loss": 0.402}
+  ],
+  "best_model": "BERT",
+  "best_accuracy": 0.868,
+  "f1": 0.831
+}
