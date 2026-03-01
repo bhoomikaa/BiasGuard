@@ -1,0 +1,13 @@
+{
+  "model_comparison": [
+    {"model": "DistilBERT", "accuracy": 0.842, "eval_loss": 0.375},
+    {"model": "BERT", "accuracy": 0.868, "eval_loss": 0.359},
+    {"model": "RoBERTa", "accuracy": 0.838, "eval_loss": 0.546},
+    {"model": "LLaMA2", "accuracy": 0.856, "eval_loss": 0.402, "note": "LoRA"}
+  ],
+  "f1": 0.831,
+  "accuracy": 0.868,
+  "best_model": "BERT",
+  "dataset": "google/civil_comments",
+  "n_samples": 300
+}
